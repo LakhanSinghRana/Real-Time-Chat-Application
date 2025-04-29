@@ -23,41 +23,27 @@ A simple real-time chat app supporting multiple users with message persistence, 
 
 ---
 
-## 🛠️ Getting Started
-
-### 📁 Clone the repository
-```bash
-git clone https://github.com/your-username/chat-app.git
-cd chat-app
-📦 Install dependencies
+Install dependencies
 Client:
-bash
-Copy
-Edit
-cd client
-npm install
+  cd client
+  npm install
+  
 Server:
-bash
-Copy
-Edit
-cd ../server
-npm install
-▶️ Run the application
-Start server:
-bash
-Copy
-Edit
-cd server
-npm run dev    # or: node server.js / nodemon server.js
-Start client:
-bash
-Copy
-Edit
-cd ../client
-npm run dev    # or: npm start
+  cd ../server
+  npm install
+  
+Run the application
+  Start server:
+   cd server && node index.js
+
+  Start client:
+   cd client
+    npm start
+
 📋 Notes
 Do not modify the UI layout. All fixes must preserve the original design strictly.
 
 Ensure messages are shown only once for the sender and the receiver.
 
 Message history must persist unless explicitly cleared using the "Clear History" button.
+ 
