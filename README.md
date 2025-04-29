@@ -23,27 +23,34 @@ A simple real-time chat app supporting multiple users with message persistence, 
 
 ---
 
-Install dependencies
-Client:
+## Install dependencies
+**Client:**
   cd client
   npm install
-  
-Server:
+
+---
+
+**Server:**
   cd ../server
   npm install
-  
-Run the application
-  Start server:
-   cd server && node index.js
 
-  Start client:
+  --
+  
+  
+## Run the application
+  **Start server:**
+   cd server && node index.js
+---
+  **Start client:**
    cd client
     npm start
-
-📋 Notes
+---
+##📋 Notes
 Do not modify the UI layout. All fixes must preserve the original design strictly.
 
 Ensure messages are shown only once for the sender and the receiver.
 
 Message history must persist unless explicitly cleared using the "Clear History" button.
+
+---
  
